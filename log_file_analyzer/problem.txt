@@ -1,0 +1,21 @@
+LOG FILE ANALYZER (SYSTEM MONITORING)
+
+
+Scenario:
+	A server generates log lines like the following:
+
+		2026-01-15 14:32:10 ERROR auth: Invalid token for user_id=83921
+	
+
+Task:
+	Write a function that:
+	
+		- Extracts the timestamp, log level, module, and message
+		- Returns them in a structured format (e.g., dictionary or object)
+		- Handles inconsistent spacing and missing fields gracefully
+
+
+Skills Practiced:
+	- tokenization
+	- splitting
+	- edge-case handling
